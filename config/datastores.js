@@ -46,6 +46,6 @@ module.exports.datastores = {
      *                                                                          *
      ***************************************************************************/
     adapter: require("sails-mysql"),
-    url: "mysql://root:ddbbzz@localhost:3306/videorental",
+    url: process.env.dburl,
   },
 };
