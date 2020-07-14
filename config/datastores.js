@@ -12,6 +12,8 @@
  * For more information on configuring datastores, check out:
  * https://sailsjs.com/config/datastores
  */
+var dotenv = require("dotenv");
+dotenv.config();
 
 module.exports.datastores = {
   /***************************************************************************
